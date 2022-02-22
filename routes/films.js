@@ -47,6 +47,7 @@ router.get('/', function(req, res) {
             };
 
             console.log(results);
+            res.header("Access-Control-Allow-Origin", "*");
             res.send(results);
 
         });
