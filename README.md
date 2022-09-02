@@ -1,5 +1,5 @@
 # test-project-backend
-api of films
+api of films from file.csv
 
 url of get request with query: 'http://localhost:3000/films/?dest=0&colonsort=id'
 
